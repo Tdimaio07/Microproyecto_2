@@ -17,9 +17,9 @@ body {
     line-height: 1.5;
     font-weight: 400;
   
-    color-scheme: light dark;
+    color-scheme: black;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #000000;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -29,7 +29,7 @@ body {
 
 /** Globales **/
 img {
-    max-width: 100%;
+    max-width: 25%;
 }
 
 h1 {
@@ -141,10 +141,6 @@ h4 {
     padding-bottom: 2rem;
     max-width: 60rem;
     line-height: 1.5;
-}
-
-.barra {
-    padding-top: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -318,8 +314,8 @@ h4 {
 }
 
 .iconos-caracteristicas li {
-    background-color: #333333;
-    border: 15px solid #333333;
+    background-color: #000000;
+    border: 15px solid #000000;
     border-radius: 20px;
     display: grid;
     text-align: justify;

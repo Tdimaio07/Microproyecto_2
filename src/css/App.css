@@ -134,6 +134,15 @@ button:hover {
   text-decoration: underline;
 }
 
+.miniboton a{
+  border-radius: 5px;
+  padding: 10px 100px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000000;
+  margin: 5px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

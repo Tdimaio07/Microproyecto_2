@@ -68,7 +68,7 @@ function App() {
             </form>
 
             <div>
-              <button>Acceder <a href="src/Inicio.html">si</a></button>
+              <div className='miniboton'><a href='src/Inicio.html'>Acceder</a></div>
               <div className='registrar'>
                 <p>No tienes cuenta? <a href="src/App1.html">Crear Cuenta</a></p>
               </div>
